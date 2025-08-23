@@ -1,0 +1,41 @@
+.container {
+    justify-items: center;
+}
+
+ul {
+
+    li {
+        margin: 20px  auto;
+        font-size: 20px;
+        list-style: none;
+    }
+}
+
+.name-user {
+    margin: auto;
+}
+
+.age-user {
+    margin-left: 50px;
+}
+
+.phone-user {
+    margin-left: 50px;
+}
+
+.gender-user {
+    margin-left: 50px;
+}
+
+.delete-btn {
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    color: red;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.delete-btn:hover {
+    background-color: #c9c9c9;
+    transition: 200ms;
+}
