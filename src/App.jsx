@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react'
-import usersData from './db'
 import UserList from './components/UserList/index'
 import UserForm from './components/UserForm/index'
-import './App.css'
+import { useState, useEffect } from 'react'
+import usersData from './db'
+import './index.css'
 
 function App() {
   const [users, setUsers] = useState(() => {
